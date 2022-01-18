@@ -1,2 +1,13 @@
 # pin_dl_bot
 pinterest downloader bot written by Pyrogram
+
+#### Personalise main.py and plugs/text.py
+
+#### Then install requirements with
+```bash
+pip install -r -U requirements.txt
+```
+#### In the end run main file with
+```bash
+python main.py
+```
