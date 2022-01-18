@@ -7,7 +7,7 @@ pinterest downloader bot written by Pyrogram
 ```bash
 pip install -r -U requirements.txt
 ```
-#### In the end run main file with
+#### In the end run the main file with
 ```bash
 python main.py
 ```
