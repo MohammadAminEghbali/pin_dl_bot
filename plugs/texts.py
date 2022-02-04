@@ -22,3 +22,5 @@ help_text = """
 just send me a url of pin
 Note: i can't download pin groups like__** https://www.pinterest.com/pin/813392382698556185/
 """
+
+waiting_text = "**__Please wait a moment__**"
