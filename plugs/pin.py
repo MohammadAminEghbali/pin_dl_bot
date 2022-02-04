@@ -1,6 +1,6 @@
 from json import loads
 from re import search
-from typing import Union, Tuple
+from typing import Tuple, Union
 
 from bs4 import BeautifulSoup
 from requests import get

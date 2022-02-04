@@ -18,13 +18,13 @@ async def pin_dl(_, msg:Message) -> Message:
         send_type, url = dl
         await msg_tmp.edit("**__Uploading to telegram__**")
         if send_type == "gif":
-            await msg.reply_animation(url, caption=caption)
+            await msg.reply_animation(url, caption=caption, reply_to_message_id=msg.message_id)
         
         elif send_type == "video":
-            await msg.reply_video(url, caption=caption)
+            await msg.reply_video(url, caption=caption, reply_to_message_id=msg.message_id)
         
         elif send_type == "image":
-            await msg.reply_photo(url, caption=caption)
+            await msg.reply_photo(url, caption=caption, reply_to_message_id=msg.message_id)
         
         return await msg_tmp.delete()
             
