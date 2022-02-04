@@ -11,7 +11,7 @@ from pyrogram.types import Message
 
 async def pin_dl(_, msg:Message) -> Message:
     url = f"https://{msg.matches[0].group(1)}"
-    msg_tmp:Message = await msg.reply(waiting_text)
+    msg_tmp:Message = await msg.reply(waiting_text, quote=True)
     
     dl = download(url)
     if dl:
